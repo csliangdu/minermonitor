@@ -29,7 +29,6 @@ public class MailUtil {
 	private static Logger logger = Logger.getLogger(MailUtil.class);
 	@SuppressWarnings("restriction")
 	public static void sendMail(MailConfig mailConf, String content){
-		System.out.println(mailConf.emailTo);
 		if (mailConf.emailTo.contains(",")){
 			String[] emailToUsers = mailConf.emailTo.split(",");
 			for (String x: emailToUsers){

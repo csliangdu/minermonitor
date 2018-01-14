@@ -29,8 +29,6 @@ public class PoolFormat {
 			if (p.length == 8) {
 				String workerName = p[0];
 				int workerHash = Integer.valueOf(p[1]);
-				System.out.println(tmp2);
-				System.out.println(workerName);
 				if(workerName.length() > 1){
 					if (workerHash > 0 ){
 						x.workerStatus.put(workerName, true);	
