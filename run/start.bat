@@ -1,0 +1,1 @@
+java -jar minermonitor-jar-with-dependencies.jar mm.json >run.log

@@ -1,0 +1,30 @@
+{
+    "ProducerGroup": "ProducerGroup_01",
+    "SleepMinitue": 3,
+    "MailConf": [
+        {
+            "mailHost": "smtp.qq.com",
+            "mailPort": 465,
+            "mailUsername": "im.duliang@qq.com",
+            "mailPassword": "byxnkrczzlbsbifd",
+            "mailTimeout": 25000,
+            "mailFrom": "im.duliang@qq.com",
+            "mailTo": "249379681@qq.com,152009746@qq.com",
+            "mailSubject": "矿机掉线,抓紧重启!",
+            "personal": "Monitoring"
+        }
+    ],
+    "TickerConf": [
+        {
+            "poolURL": "api.f2pool.com",
+            "poolName": "f2pool",
+            "endpoints": [
+                {
+                    "workerGroup": "group_460",
+                    "workerAddress": "eth/0xf3f975ddd64d70d9eab8869e883360e2a71c2413"
+                }
+            ]
+        }
+    ]
+    
+}
